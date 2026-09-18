@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-label="Claude Code Security Arsenal">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0d13"/>
+      <stop offset="0.55" stop-color="#0b0f16"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="head" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b222c"/>
+      <stop offset="1" stop-color="#0e131b"/>
+    </linearGradient>
+    <linearGradient id="hood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#161b22"/>
+      <stop offset="1" stop-color="#0c1017"/>
+    </linearGradient>
+    <linearGradient id="lens" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#04110a"/>
+      <stop offset="1" stop-color="#020507"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#56d364" stop-opacity="0.55"/>
+      <stop offset="0.4" stop-color="#56d364" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowg" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3fb950" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#3fb950" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowa" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f0883e" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#f0883e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- backdrop -->
+  <rect width="1280" height="440" fill="url(#bg)"/>
+  <!-- faint grid -->
+  <g stroke="#161c26" stroke-width="1" opacity="0.6">
+    <path d="M0 60H1280M0 130H1280M0 200H1280M0 270H1280M0 340H1280M0 410H1280"/>
+    <path d="M80 0V440M240 0V440M400 0V440M560 0V440M720 0V440M880 0V440M1040 0V440M1200 0V440"/>
+  </g>
+  <!-- ambient glows -->
+  <circle cx="250" cy="220" r="230" fill="url(#glowg)"/>
+  <circle cx="980" cy="150" r="220" fill="url(#glowa)"/>
+
+  <!-- ===== mascot ===== -->
+  <g transform="translate(250 224)">
+    <!-- hood -->
+    <path d="M-150 40 C-150 -120 150 -120 150 40 L150 150 L-150 150 Z" fill="url(#hood)" stroke="#f0883e" stroke-opacity="0.35" stroke-width="2"/>
+    <path d="M-150 40 C-150 -120 150 -120 150 40" fill="none" stroke="#3fb950" stroke-opacity="0.5" stroke-width="2"/>
+    <!-- antenna -->
+    <line x1="0" y1="-118" x2="0" y2="-150" stroke="#3fb950" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="0" cy="-156" r="8" fill="#56d364"/>
+    <circle cx="0" cy="-156" r="16" fill="url(#glowg)"/>
+    <!-- head -->
+    <rect x="-108" y="-96" width="216" height="196" rx="46" fill="url(#head)" stroke="#2a323d" stroke-width="2"/>
+    <rect x="-108" y="-96" width="216" height="196" rx="46" fill="none" stroke="#f0883e" stroke-opacity="0.25" stroke-width="1"/>
+    <!-- sunglasses -->
+    <g>
+      <!-- temple arms to head edge -->
+      <rect x="-116" y="-30" width="28" height="11" rx="5" fill="#05070a"/>
+      <rect x="88" y="-30" width="28" height="11" rx="5" fill="#05070a"/>
+      <!-- top frame bar -->
+      <rect x="-96" y="-40" width="192" height="18" rx="9" fill="#05070a"/>
+      <rect x="-96" y="-40" width="192" height="4" rx="2" fill="#f0883e" opacity="0.55"/>
+      <!-- bridge -->
+      <rect x="-14" y="-30" width="28" height="12" rx="6" fill="#05070a"/>
+      <!-- left lens -->
+      <rect x="-94" y="-30" width="82" height="54" rx="18" fill="url(#lens)" stroke="#05070a" stroke-width="5"/>
+      <rect x="-94" y="-30" width="82" height="54" rx="18" fill="none" stroke="#f0883e" stroke-opacity="0.45" stroke-width="1.5"/>
+      <!-- right lens -->
+      <rect x="12" y="-30" width="82" height="54" rx="18" fill="url(#lens)" stroke="#05070a" stroke-width="5"/>
+      <rect x="12" y="-30" width="82" height="54" rx="18" fill="none" stroke="#f0883e" stroke-opacity="0.45" stroke-width="1.5"/>
+      <!-- reflected code in lenses -->
+      <g stroke="#39d353" stroke-width="2" opacity="0.65" stroke-linecap="round">
+        <line x1="-84" y1="-16" x2="-58" y2="-16"/>
+        <line x1="-84" y1="-6" x2="-44" y2="-6"/>
+        <line x1="-84" y1="4" x2="-64" y2="4"/>
+        <line x1="-84" y1="14" x2="-50" y2="14"/>
+        <line x1="20" y1="-16" x2="52" y2="-16"/>
+        <line x1="20" y1="-6" x2="40" y2="-6"/>
+        <line x1="20" y1="4" x2="60" y2="4"/>
+        <line x1="20" y1="14" x2="46" y2="14"/>
+      </g>
+      <!-- sheen -->
+      <rect x="-94" y="-30" width="82" height="54" rx="18" fill="url(#sheen)"/>
+      <rect x="12" y="-30" width="82" height="54" rx="18" fill="url(#sheen)"/>
+    </g>
+    <!-- mouth / speaker grille -->
+    <g fill="#f0883e" opacity="0.9">
+      <rect x="-36" y="50" width="12" height="12" rx="3"/>
+      <rect x="-18" y="50" width="12" height="12" rx="3"/>
+      <rect x="0" y="50" width="12" height="12" rx="3"/>
+      <rect x="18" y="50" width="12" height="12" rx="3"/>
+      <rect x="-27" y="66" width="12" height="10" rx="3" opacity="0.6"/>
+      <rect x="-9" y="66" width="12" height="10" rx="3" opacity="0.6"/>
+      <rect x="9" y="66" width="12" height="10" rx="3" opacity="0.6"/>
+    </g>
+  </g>
+
+  <!-- ===== title block ===== -->
+  <g font-family="'SFMono-Regular','JetBrains Mono','DejaVu Sans Mono',Menlo,Consolas,monospace">
+    <text x="512" y="150" fill="#3fb950" font-size="22" letter-spacing="6">// CLAUDE CODE</text>
+    <text x="510" y="228" fill="#e6edf3" font-size="76" font-weight="700" letter-spacing="1">SECURITY</text>
+    <text x="510" y="300" fill="#f0883e" font-size="76" font-weight="700" letter-spacing="1">ARSENAL</text>
+    <text x="514" y="346" fill="#7d8590" font-size="21" letter-spacing="1">Offensive · defensive · one all-in-one skill kit</text>
+    <!-- terminal prompt detail -->
+    <g transform="translate(514 384)">
+      <text x="0" y="0" fill="#56d364" font-size="19">$</text>
+      <text x="20" y="0" fill="#8b949e" font-size="19">claude</text>
+      <text x="92" y="0" fill="#e6edf3" font-size="19">--skills ~/.claude/skills</text>
+      <rect x="386" y="-15" width="11" height="20" fill="#56d364">
+        <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <!-- corner shield badge -->
+  <g transform="translate(1150 60)" opacity="0.9">
+    <path d="M0 -26 L24 -16 V6 C24 22 0 30 0 30 C0 30 -24 22 -24 6 V-16 Z" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
+    <path d="M-10 2 L-3 10 L12 -8" fill="none" stroke="#56d364" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

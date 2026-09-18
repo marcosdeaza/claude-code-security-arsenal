@@ -1,0 +1,31 @@
+Claude Code Security Arsenal
+Curated by Marcos de Aza — https://github.com/marcosdeaza
+Not affiliated with, endorsed by, or sponsored by Anthropic.
+
+This repository is a curated collection. It bundles one third-party skill set
+and catalogs several others. Every original author keeps full credit and their
+own license. See CREDITS.md for the full attribution list.
+
+────────────────────────────────────────────────────────────────────────────
+BUNDLED (redistributed here, with permission of their license)
+────────────────────────────────────────────────────────────────────────────
+
+skills/01..22  —  Claude Code CyberSecurity Skill
+    Author:   Masriyan (Riyan Pratama)  —  https://github.com/Masriyan
+    Source:   https://github.com/Masriyan/Claude-Code-CyberSecurity-Skill
+    License:  MIT  (full text: skills/UPSTREAM-LICENSE.txt)
+
+    These 22 skill packages are redistributed under the terms of the MIT
+    License. The original copyright notice is preserved in
+    skills/UPSTREAM-LICENSE.txt. Only packaging-level changes were made
+    (removal of build caches, addition of an index and a shared layer that
+    sits ALONGSIDE the skills without altering their methodology).
+
+────────────────────────────────────────────────────────────────────────────
+CATALOGED (linked, NOT redistributed)
+────────────────────────────────────────────────────────────────────────────
+
+The collections listed in docs/CATALOG.md and CREDITS.md are NOT copied into
+this repository. They are referenced by link and installed from their own
+sources by install.sh. GPL-licensed and unlicensed projects are deliberately
+kept link-only so their terms are respected.

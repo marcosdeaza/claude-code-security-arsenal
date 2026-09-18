@@ -1,0 +1,17 @@
+# Python build caches (skills ship source only)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Local installs pulled by install.sh (external, not tracked here)
+vendor/
+.arsenal-cache/
